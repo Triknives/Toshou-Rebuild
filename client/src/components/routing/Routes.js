@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Register from '../auth/Register';
 import Login from '../auth/Login';
+import Register from '../auth/RegisterModal';
 import Alert from '../layout/Alert';
 import PrivateRoute from '../routing/PrivateRoute';
 

@@ -46,13 +46,13 @@ class BookQueue extends Component {
           {items.map(({_id, name, author}) => (
         <ul style = {listBody}>
               <li>
-              <button
+              <Button
               class= "deleteBtn"
               color= "danger"
               onClick={this.onDeleteClick.bind(this, _id)}
               >
                 &times;
-              </button>
+              </Button>
               {name} | {author}
               </li>
           </ul>
